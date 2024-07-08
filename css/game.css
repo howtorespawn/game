@@ -1,0 +1,51 @@
+.games{
+    height: 100vh;
+    background-color: #1b1b1b;
+    color: rgb(252, 252, 252);
+    padding: 50px;
+}
+.games-text {
+    /* padding-top: 100px; */
+}
+.games-header-one{
+    display: flex;
+    align-items: center;
+}
+.games-header-one h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin-left: 10px;
+}
+.games-cards-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.games-cards{
+    display: flex;
+    width: 90%;
+    padding-top: 30px;
+    overflow-y: hidden;
+}
+.card-body{
+    width: auto;
+    height: auto;
+    margin-right: 30px;
+}
+.card-body:nth-last-child(1){
+    margin-right: 0px;
+}
+.card-images{
+    object-fit: cover;
+    width: 20vw;
+    height: auto;
+}
+.arrow-btns svg{
+    height: 50px;
+}
+.arrow-btns:nth-child(1){
+    margin-right: 20px;
+}
+.arrow-btns:nth-last-child(1){
+    margin-left: 20px;
+}

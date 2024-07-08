@@ -1,0 +1,44 @@
+.nav-bar{
+    padding: 10px 5% 10px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #272727;
+}
+.logo{
+    height: 80px;
+}
+.nav-bar-links a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+.hero{
+    /* background-image: linear-gradient(110deg, #ffffff00 43%, #ff73009d 44%, #ff73009d 48%,#2727279d 49%, #2727279d 54%, #ff73009d 55%, #ff73009d 60%,#272727 60%, #272727 100%), */
+    background-image: linear-gradient(110deg, #ffffff00 45%, #ff73009d 48%, #ff73009d 50%,#2727279d 50%, #2727279d 55%, #ff73009d 55%, #ff73009d 60%,#272727 60%, #272727 100%),
+    url(../media/logo/5430170-stray-game-video-game.jpg);
+    height: calc(100vh - 100px);
+    width: 100%;
+    background-size: contain;
+    background-position: left;
+}
+.hero-text{
+    height: calc(100vh - 100px);
+    margin-left: 66%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.hero-text-heading h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
